@@ -36,7 +36,8 @@ Building AI-driven web systems, cloud platforms, and automation to deliver real 
 
 ![Languages Metrics](./metrics-languages.svg)
 
-**Core Tech Stack**  
+**Core Tech Stack**
+
 ![Tech Stack](https://skillicons.dev/icons?i=python,aws,docker,githubactions,linux,laravel,symfony,js,git)
 
 ---
