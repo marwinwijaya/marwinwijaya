@@ -23,6 +23,8 @@ Building AI-driven web systems, cloud platforms, and automation to deliver real 
 ## 📈 Activity
 **What it shows:** consistency and delivery cadence across projects.
 
+![Activity Metrics](./metrics-activity.svg)
+
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=marwinwijaya&theme=tokyo-night&hide_border=true)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=marwinwijaya&theme=tokyonight&hide_border=true)
@@ -31,9 +33,6 @@ Building AI-driven web systems, cloud platforms, and automation to deliver real 
 
 ## ⚙️ DevOps & Engineering
 **What it shows:** engineering footprint and languages used in production work.
-
-## 📈 Activity
-![Activity Metrics](./metrics-activity.svg)
 
 ## ⚙️ DevOps & Engineering
 ![Languages Metrics](./metrics-languages.svg)
