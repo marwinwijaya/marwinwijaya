@@ -32,7 +32,11 @@ Building AI-driven web systems, cloud platforms, and automation to deliver real 
 ## ⚙️ DevOps & Engineering
 **What it shows:** engineering footprint and languages used in production work.
 
-![Metrics](https://raw.githubusercontent.com/marwinwijaya/marwinwijaya/main/github-metrics.svg)
+## 📈 Activity
+![Activity Metrics](./metrics-activity.svg)
+
+## ⚙️ DevOps & Engineering
+![Languages Metrics](./metrics-languages.svg)
 
 **Core Tech Stack**  
 ![Tech Stack](https://skillicons.dev/icons?i=python,aws,docker,githubactions,linux,laravel,symfony,js,git)
