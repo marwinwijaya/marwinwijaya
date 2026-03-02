@@ -11,7 +11,7 @@ jobs:
   github-metrics-activity:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@v3.34
         with:
           # data token
           token: ${{ secrets.METRICS_TOKEN }}
@@ -35,6 +35,7 @@ jobs:
           plugin_activity_limit: 5
           plugin_activity_days: 7
           plugin_activity_filter: issue, pr, release
+          plugin_activity_load: 100
 
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
