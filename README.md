@@ -34,7 +34,6 @@ Building AI-driven web systems, cloud platforms, and automation to deliver real 
 ## ⚙️ DevOps & Engineering
 **What it shows:** engineering footprint and languages used in production work.
 
-## ⚙️ DevOps & Engineering
 ![Languages Metrics](./metrics-languages.svg)
 
 **Core Tech Stack**  
