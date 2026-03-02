@@ -53,3 +53,26 @@ flowchart LR
   E --> G[Admin API & Integrations]
   C --> H[(Database)]
   E --> H
+```
+
+---
+
+## 🤖 AI (Applied)
+**What it shows:** focus on usable metrics and operational stability, not just model scores.
+
+- Business-relevant evaluation (Accuracy, MAE/MAPE, ROC-AUC)
+- Deployment readiness, monitoring, and iteration
+- Integration with web dashboards for decision support
+
+---
+
+## 🚀 Current Focus
+- Scaling AI web applications for production environments  
+- Improving data pipelines, reliability, and observability  
+- Bridging AI models with real business use cases  
+
+---
+
+## 📫 Reach me
+- **LinkedIn:** https://linkedin.com/in/USERNAME  
+- **Portfolio:** https://marwinwijaya.github.io
