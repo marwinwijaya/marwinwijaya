@@ -1,6 +1,6 @@
 ## Hi, I'm Arwin 👋
 
-**Digital Innovation Engineer at Great Giant Foods**  
+**Solution Engineer Analyst at Great Giant Foods**  
 Building AI-driven web systems, cloud platforms, and automation to deliver real operational impact.
 
 ---
