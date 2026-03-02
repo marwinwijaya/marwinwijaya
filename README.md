@@ -32,10 +32,7 @@ Building AI-driven web systems, cloud platforms, and automation to deliver real 
 ## ⚙️ DevOps & Engineering
 **What it shows:** engineering footprint and languages used in production work.
 
-![Arwin's GitHub stats](https://api-github-readme-stats.vercel.app/api?username=marwinwijaya&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800)
-![Top Langs](https://api-github-readme-stats.vercel.app/api/top-langs/?username=marwinwijaya&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800)
-
-![Metrics](https://metrics.lecoq.io/marwinwijaya?template=classic&languages=1&activity=1&isocalendar=1&followup=1)
+![Metrics](./github-metrics.svg)
 
 **Core Tech Stack**  
 ![Tech Stack](https://skillicons.dev/icons?i=python,aws,docker,githubactions,linux,laravel,symfony,js,git)
