@@ -1,0 +1,44 @@
+name: Metrics (Activity)
+on:
+  schedule:
+    - cron: "15 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics-activity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # data token
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # commit token (IMPORTANT: avoid 403)
+          committer_token: ${{ secrets.METRICS_TOKEN }}
+          committer_branch: main
+
+          user: marwinwijaya
+          template: classic
+          config_timezone: Asia/Jakarta
+
+          # output
+          filename: metrics-activity.svg
+          output_action: commit
+
+          # keep it light
+          base: header
+
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 7
+          plugin_activity_filter: issue, pr, release
+
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+
+          # reduce size / avoid huge base64
+          config_output: svg
+          config_display: regular
