@@ -1,16 +1,19 @@
-## Hi there 👋
+## Hi, I'm Arwin 👋
 
-<!--
-**marwinwijaya/marwinwijaya** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Digital Innovation Engineer at Great Giant Foods  
+Working on AI, Web Applications, Cloud, and Automation for real operational impact.
 
-Here are some ideas to get you started:
+### 🔧 What I work on
+- 🌱 AI for Agriculture (Drone AI, Counting, Sizing, Early Warning)
+- 🧠 Data & Machine Learning (Python, XGBoost, Analytics)
+- ☁️ Cloud & DevOps (AWS, Docker, CI/CD)
+- 🖥️ Web Apps (Laravel, Symfony, APIs)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🚀 Current Focus
+- Scaling AI web apps for production
+- Improving data pipelines & system reliability
+- Bridging AI models with real business use cases
+
+### 📫 Reach me
+- LinkedIn: https://linkedin.com/in/USERNAME
+- Portfolio: https://marwinwijaya.github.io
