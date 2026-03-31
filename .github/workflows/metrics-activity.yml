@@ -11,7 +11,7 @@ jobs:
   github-metrics-activity:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@v3.34
+      - uses: lowlighter/metrics@v3.25
         with:
           # data token
           token: ${{ secrets.METRICS_TOKEN }}
@@ -20,7 +20,7 @@ jobs:
           committer_token: ${{ secrets.METRICS_TOKEN }}
           committer_branch: main
 
-          user: marwinwijaya
+          user: arwinwijaya
           template: classic
           config_timezone: Asia/Jakarta
 
@@ -28,18 +28,58 @@ jobs:
           filename: metrics-activity.svg
           output_action: commit
 
-          # keep it light
-          base: header
+          # merged summary + activity card
+          base: header, activity, community, repositories, metadata
 
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 7
-          plugin_activity_filter: issue, pr, release
-          plugin_activity_load: 100
-
+          # Disabled because the upstream activity plugin is currently brittle
+          # with some GitHub event payloads and can fail with "unexpected error".
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
+          plugin_pagespeed: yes
+          plugin_pagespeed_url: https://marwinwijaya.github.io
+          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
+
           # reduce size / avoid huge base64
+          config_output: svg
+          config_display: regular
+
+      - uses: lowlighter/metrics@v3.25
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.METRICS_TOKEN }}
+          committer_branch: main
+
+          user: arwinwijaya
+          template: classic
+          config_timezone: Asia/Jakarta
+
+          filename: metrics-people.svg
+          output_action: commit
+
+          base: ""
+          plugin_people: yes
+          plugin_people_limit: 24
+          plugin_people_size: 28
+          plugin_people_types: followers, following
+
+          config_output: svg
+          config_display: regular
+
+      - uses: lowlighter/metrics@v3.25
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.METRICS_TOKEN }}
+          committer_branch: main
+
+          user: GGF-Innovation-Team
+          template: classic
+          config_timezone: Asia/Jakarta
+
+          filename: metrics-organization.svg
+          output_action: commit
+
+          base: header, activity, community, repositories, metadata
+
           config_output: svg
           config_display: regular

@@ -17,7 +17,7 @@ jobs:
           committer_token: ${{ secrets.METRICS_TOKEN }}
           committer_branch: main
 
-          user: marwinwijaya
+          user: arwinwijaya
           template: classic
           config_timezone: Asia/Jakarta
 
