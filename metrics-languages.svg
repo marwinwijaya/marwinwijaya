@@ -21,13 +21,13 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="225.1959492135473" height="8" fill="#4F5D95"/>
-                    <rect mask="url(#languages-bar)" x="225.1959492135473" y="0" width="211.84902109627706" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="437.0449703098243" y="0" width="17.20325184721253" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="454.2482221570368" y="0" width="3.144958616096911" height="8" fill="#336790"/>
-                    <rect mask="url(#languages-bar)" x="457.3931807731338" y="0" width="1.6582944203082386" height="8" fill="#dc566d"/>
-                    <rect mask="url(#languages-bar)" x="459.051475193442" y="0" width="0.5656047837255027" height="8" fill="#384d54"/>
-                    <rect mask="url(#languages-bar)" x="459.6170799771675" y="0" width="0.38292002283249826" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="219.3560229083752" height="8" fill="#4F5D95"/>
+                    <rect mask="url(#languages-bar)" x="219.3560229083752" y="0" width="206.35521592195784" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="425.71123883033306" y="0" width="16.75712604722415" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="442.4683648775572" y="0" width="12.302005979035728" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="454.7703708565929" y="0" width="3.063401524972658" height="8" fill="#336790"/>
+                    <rect mask="url(#languages-bar)" x="457.83377238156555" y="0" width="1.6152904620190298" height="8" fill="#dc566d"/>
+                    <rect mask="url(#languages-bar)" x="459.4490628435846" y="0" width="0.5509371564153972" height="8" fill="#384d54"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -50,6 +50,12 @@
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                            <path fill="#3572A5" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                        </svg>
+                        Python
+                    </div>
+                    <div class="field center no-wrap language">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                             <path fill="#336790" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
                         PLpgSQL
@@ -65,12 +71,6 @@
                             <path fill="#384d54" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
                         Dockerfile
-                    </div>
-                    <div class="field center no-wrap language">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                            <path fill="#3572A5" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
-                        </svg>
-                        Python
                     </div>
                 </div>
             </section>
